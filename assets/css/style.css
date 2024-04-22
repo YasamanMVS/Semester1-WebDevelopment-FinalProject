@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    margin: 10px 30px;
+    justify-content: center;
+}
+#logo{
+    width: 280px;
+    height: auto;
+    height: auto;
+}
+#company-name{
+    font-size: 180px;
+    font-weight: bold;
+    font-family: 'Libre Franklin';
+    color: black;
+}
+nav{
+    background-color: black;
+    border: 2px solid black;  
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+li{
+    list-style-type: none;
+    font-size: 110%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin: 3px 12px;
+}
+a, a:visited{
+    text-decoration: none;
+    color: white;
+}
+#about{
+    margin: 50px;
+    flex-direction: column;
+}
+#about-head{
+    font-weight: 750;
+    font-family: 'Source Sans Pro';
+    font-size: 70px;
+    margin-top: 50px;
+}
+#about-subhead{
+    font-size: 25px;
+    font-family: 'Source Sans Pro';
+    font-weight: 800;
+}
+#img-container{
+    background-image: url("../images/img-1.jpg");
+    width: 500px;
+    height: 400px;
+    float: right;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(160, 160, 160);
+    transition: 0.8s ease-in-out;
+}
+#img-container:hover{
+    background-image: url("../images/img-2.jpg");
+}
+#history{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    width: 800px;
+}
+body{
+    width: 100%;
+}
+#jobdescript{
+    margin: 50px;
+}
+#jobdescript h1{
+    font-weight: 750;
+    font-family: 'Source Sans Pro';
+    font-size: 70px;
+    margin-top: 50px;
+    text-align: center;
+}
+#jobdescript h2{
+    margin-top:20px;
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+    font-weight: 800;
+    text-align: center;
+}
+#jd-image-container{
+    align-self: center;
+    display:flex;
+    flex-direction: row;
+}
+.map{
+    margin: 10px 40px 80px;
+    font-size: 15px;
+    font-family: 'Source Sans Pro';
+    text-align: center;
+}
+.map>h2{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+    text-align: center;
+}
+#responsibility h1{
+    font-weight: 750;
+    font-family: 'Source Sans Pro';
+    font-size: 70px;
+    margin-top: 50px;
+    text-align: center;
+}
+#responsibility h2{
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Source Sans Pro';
+    text-align: center;
+}
+#rdtable{
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+#rdtable{
+    margin-bottom: 50px;
+    font-family: 'Source Sans Pro';
+}
+#col1{
+    width: 250px;
+}
+#col2{
+    width: 550px;
+}
+#th1{
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+}
+.jth2{
+    height: 60px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgb(146, 146, 146);
+}
+.jobtitle{
+    background-color: white;
+    border: 3px solid black;
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.respduties{
+    border: 3px solid black;
+    vertical-align: middle;
+    font-weight: 600;
+    font-style: italic;
+    height: 40px;
+    padding: 15px;
+}
+#rdtable tr:nth-child(even){
+    background-color: lightgray;
+}
+
+.yh1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: .5em;
+}
+.yh2 {
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 2rem;
+    margin: 1em 1em .5em 1em;
+}
+.s1 {
+    color: rgb(218, 122, 12);
+}
+.s2 {
+    color: rgb(252, 140, 13);
+}
+.s3 {
+    color: rgb(241, 182, 53);
+}
+.s4 {
+    color: rgb(240, 236, 10);
+}
+.yp {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1.25em;
+    margin-left: 2.25em;
+}
+.yh3 {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 2em;
+    margin-top: 1em;
+    margin-left: 3em;
+}
+.e {
+    margin: .75em 0 3em 11em;
+    display: block;
+
+}
+.e>li {
+    list-style: square;
+    color: black;
+    font-size: 1.5em;
+}
+.parent, .left, .right {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+td, th {
+    border: 3px solid rgb(0, 0, 0);
+    padding: 1em;
+    font-family: 'Mukta', sans-serif;
+}
+.parent {
+    width: 80%;
+}
+.left, .right {
+    width: 90%;
+}
+.rc {
+    caption-side: bottom;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5rem;
+}
+.lc {
+    caption-side: top;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5rem;
+}
+.fp {
+    margin: 2em;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 1.20em;
+}
+#myform {
+    border: 2px solid black;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 80%;
+    margin-left: 7.5em;
+    margin-top: 3em;
+}
+.box {
+    display: flex;
+    align-items: center;
+    padding: .5rem 0;
+}
+.box label {
+    margin-left: 2em;
+    flex-basis: 7rem;
+    margin-bottom: 1em;
+}
+.container {
+    display: flex;
+}
+.r label {
+    width: 7rem;
+    justify-content: space-between;
+}
+.l label {
+    margin-left: 17em;
+    width: 7rem;
+}
+.box2 label {
+    margin-right: 2em;
+}
+.box3 label {
+    margin-left: 2em;
+    margin-right: 1em;
+}
+.box4 {
+    margin-left: 9em;
+}
+.myButtons {
+    margin: 1em 18em;
+}
+.m, .m:visited {
+    color: rgb(255, 0, 0);
+    font-size: 1.5em;
+}
+.mh {
+    margin: 2em 0 2em 7em;   
+}
